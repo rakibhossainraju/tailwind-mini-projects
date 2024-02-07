@@ -1,6 +1,6 @@
 export const EmailCard = () => {
   return (
-    <div className="bg-zinc-800 p-2 mx-6  rounded-2xl">
+    <div className="bg-zinc-800 p-2 mx-6 shadow-2xl rounded-2xl">
       <div className="flex flex-col md:flex-row rounded-l-xl">
         <img
           src="/assets/image.jpg"

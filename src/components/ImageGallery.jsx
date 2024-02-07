@@ -1,8 +1,8 @@
 export const ImageGallery = () => {
   return (
-    <section className="bg-white p-6 md:p-20 m-3 gap-10 shadow-2xl rounded-3xl">
+    <section className="bg-white p-6 md:px-14 md:py-10 m-3 gap-10 shadow-2xl rounded-3xl">
       {/*Menu Container*/}
-      <div className="flex flex-col items-center justify-center md:justify-end gap-3 md:gap-8 md:flex-row mb-16">
+      <div className="flex flex-col  md:flex-row items-center justify-center md:justify-end gap-3 md:gap-8 mb-10">
         {/*Menu Items*/}
         {navLinks.map((navLink) => (
           <div key={navLink} className="group">
@@ -45,7 +45,7 @@ export const ImageGallery = () => {
       </div>
 
       {/*Gallery Container*/}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 my-10 ">
+      <div className="grid gap-4 md:gap-7 md:grid-cols-2 lg:grid-cols-3 my-10 ">
         {/*Image 1*/}
         {imageUrls.map((url, index) => (
           <div key={index} className="relative group rounded overflow-hidden">
