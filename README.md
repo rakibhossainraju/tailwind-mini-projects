@@ -10,7 +10,7 @@ It has 5 projects (<span style="font-size: 11px" > which can be found on `src/co
 
 <li><a href="./src/components/PricingCard.jsx">Pricing Card</a></li>
 
-<li><a>Image Gallery</a></li>
+<li><a href="./src/components/ImageGallery.jsx">Image Gallery</a></li>
 
 <li><a>Login Modal</a></li>
 
